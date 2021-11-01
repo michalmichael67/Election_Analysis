@@ -10,7 +10,7 @@ import os
 
 #work on csv doc
 file_to_load = os.path.join("Resources", "election_results.csv")
-file_to_save = os.path.join("analysis", "election_analysist.txt")
+file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 total_votes = 0
 
@@ -28,7 +28,7 @@ with open(file_to_load) as election_data:
     headers = next(file_reader)
 
     for row in file_reader:
-        #ass to the total vote count
+        #add to the total vote count
         total_votes +=1
 
         #print candidate name for each row and save it if it is unique
