@@ -53,3 +53,9 @@ As a summary to the above information, I included a screenshot of my output in t
 
 ### Election-Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+
+In addition to this script being useful for this specific election, it can be used in future elections as well. In order to enable use in other elections, the main change that would need to be made is changing the variable "file_to_load = os.path.join("Resources", "election_results.csv")" would need to be modified to include the correct file path. But, other than that change, the file would run as expected. 
+Two modifications that could improve the data from the collected file are:
+1. Adding to the script to find out what percentages of each county voted for each candidate. This would allow more visibility into the voter preferences within a given area.
+2. If a file with more data is read in, the script could incldue a summary of the times of day that candidates vote. This would help polling stations to be fully staffed and stay open for the mosst popular hours. 
+
