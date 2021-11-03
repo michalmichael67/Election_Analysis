@@ -33,17 +33,22 @@ In order to complete the election audit, the election commission would like more
 ## Challenge Summary
 ### Election-Audit Results
 -  There were 369,711 votes cast in the congressional election.
+
 ![Total_votes.png](Resources/Total_votes.png)
 - Below is a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
 ![county_votes.png](Resources/county_votes.png)
 - Denver had the largest number of votes with 306,055 votes. In the below screenshot, you can see the output of the calculation to find the largest county.
 ![largest_county.png](Resources/largest county.png)
 - Below is a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
 ![candidate_votes.png](Resources/candidate_votes.png)
 - Diana DeGette won the election with a winning vote count of 272,892 and a total voter percentage of 73.8%. In the below screenshot of code you can see that once the votes are pulled for each candidate, the number of votes is compared the the number of votes in for the "winning candidate" (and the same for percentage). The first candidate to be tested will automaticall be the "winning candidate" becuase the winnig candidate vote variable is set to 0 at the start. But, only once all of the candidates are compared to the winning candidate vote variable can the final and true winning candidate be printed.
+
 ![winning_candidate.png](Resources/winning_candidate.png)
 
 As a summary to the above information, I included a screenshot of my output in the terminal.
+
 ![election_terminal.png](Resources/election_terminal.png)
 
 ### Election-Audit Summary
