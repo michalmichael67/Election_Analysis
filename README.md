@@ -35,19 +35,11 @@ In order to complete the election audit, the election commission would like more
 -  There were 369,711 votes cast in the congressional election.
 ![Total_votes.png](Resources/Total_votes.png)
 - Below is a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-County                    | Total Votes                    | Percent of total
-:--------------------------------:|:--------------------------------:|:--------------------------------:
-Jefferson | 38,855 | 10.5%
-Denver | 306,055 | 82.8%
-Arapahoe| 24,801 | 6.7%
+![county_votes.png](Resources/county_votes.png)
 - Denver had the largest number of votes with 306,055 votes. In the below screenshot, you can see the output of the calculation to find the largest county.
 ![largest_county.png](Resources/largest county.png)
 - Below is a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Candidate                  | Total Votes                    | Percent of total
-:--------------------------------:|:--------------------------------:|:--------------------------------:
-Charles Casper Stockham | 85,213 | 23.0%
-Diana DeGette | 272,892 | 73.8%
-Raymon Anthony Doane| 11,606 | 3.1%
+![candidate_votes.png](Resources/candidate_votes.png)
 - Diana DeGette won the election with a winning vote count of 272,892 and a total voter percentage of 73.8%. In the below screenshot of code you can see that once the votes are pulled for each candidate, the number of votes is compared the the number of votes in for the "winning candidate" (and the same for percentage). The first candidate to be tested will automaticall be the "winning candidate" becuase the winnig candidate vote variable is set to 0 at the start. But, only once all of the candidates are compared to the winning candidate vote variable can the final and true winning candidate be printed.
 ![winning_candidate.png](Resources/winning_candidate.png)
 
